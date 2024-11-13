@@ -1,0 +1,38 @@
+Layer-by-Layer Breakdown of Model
+========================================
+
+Layer Name: mobilenetv2_1.00_224
+Layer Type: Functional
+Output Shape: (None, 7, 7, 1280)
+Number of Parameters: 2257984
+----------------------------------------
+Layer Name: global_average_pooling2d
+Layer Type: GlobalAveragePooling2D
+Output Shape: (None, 1280)
+Number of Parameters: 0
+----------------------------------------
+Layer Name: dense
+Layer Type: Dense
+Output Shape: (None, 256)
+Number of Parameters: 327936
+----------------------------------------
+Layer Name: dropout
+Layer Type: Dropout
+Output Shape: (None, 256)
+Number of Parameters: 0
+----------------------------------------
+Layer Name: dense_1
+Layer Type: Dense
+Output Shape: (None, 128)
+Number of Parameters: 32896
+----------------------------------------
+Layer Name: dropout_1
+Layer Type: Dropout
+Output Shape: (None, 128)
+Number of Parameters: 0
+----------------------------------------
+Layer Name: dense_2
+Layer Type: Dense
+Output Shape: (None, 1)
+Number of Parameters: 129
+----------------------------------------
